@@ -1,0 +1,13 @@
+Package: measError
+Type: Package
+Title: What the Package Does (Short Line)
+Version: 1.0
+Date: 2025-10-29
+Author: Who wrote it
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: More about what it does (maybe more than one line).
+License: GNU GPLv3
+Encoding: UTF-8
+Imports: Rcpp (>= 1.1.0)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.3.3

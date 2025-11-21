@@ -1,0 +1,44 @@
+\nonstopmode{}
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\makeatletter\@ifl@t@r\fmtversion{2018/04/01}{}{\usepackage[utf8]{inputenc}}\makeatother
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `measError'}}
+\par\bigskip{\large \today}
+\end{center}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdftitle = {measError: What the Package Does (Short Line)}}}{}
+\begin{description}
+\raggedright{}
+\item[Type]\AsIs{Package}
+\item[Title]\AsIs{What the Package Does (Short Line)}
+\item[Version]\AsIs{1.0}
+\item[Date]\AsIs{2025-10-29}
+\item[Author]\AsIs{Who wrote it}
+\item[Maintainer]\AsIs{Who to complain to }\email{yourfault@somewhere.net}\AsIs{}
+\item[Description]\AsIs{More about what it does (maybe more than one line).}
+\item[License]\AsIs{What license is it under?}
+\item[Imports]\AsIs{Rcpp (>= 1.1.0)}
+\item[LinkingTo]\AsIs{Rcpp, RcppArmadillo}
+\item[NeedsCompilation]\AsIs{yes}
+\end{description}
+\Rdcontents{Contents}
+\HeaderA{measError-package}{What the Package Does (Short Line)}{measError.Rdash.package}
+\aliasA{measError}{measError-package}{measError}
+\keyword{package}{measError-package}
+%
+\begin{Description}
+More about what it does (maybe more than one line).
+\end{Description}
+%
+\begin{Author}
+Who wrote it
+
+Maintainer: Who to complain to <yourfault@somewhere.net>
+\end{Author}
+\printindex{}
+\end{document}
